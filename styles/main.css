@@ -124,9 +124,6 @@ main .event_wrap .more img {
   top: -5px;
   left: 45px;
 }
-main .event_wrap .slide_wrap {
-  background: aqua;
-}
 main .event_wrap .slide_wrap .slide_container {
   display: grid;
   grid-template-areas: "s1 s2 s3";
@@ -171,4 +168,94 @@ main .event_wrap .slide_wrap .slide_container .slide3 {
 }
 main .event_wrap .slide_wrap .slide_container .slide3 h2 {
   font-family: "Jua", sans-serif;
+}
+main .why {
+  width: 1200px;
+  margin: 100px auto;
+}
+main .why h1 {
+  font-family: "Jua", sans-serif;
+  font-size: 2.7rem;
+  line-height: 1.3;
+}
+main .why p {
+  padding: 20px 0;
+}
+main .why .more {
+  display: inline-block;
+  font-family: "Jua", sans-serif;
+  padding-bottom: 100px;
+  position: relative;
+}
+main .why .more img {
+  position: absolute;
+  top: -5px;
+  left: 45px;
+}
+main .why .why_container {
+  display: grid;
+  grid-template-areas: "w1 w2 w3 w4 w5";
+  height: 300px;
+}
+main .why .why_container .why_slide {
+  border-radius: 15px;
+  margin-right: 20px;
+  width: 220px;
+  position: relative;
+}
+main .why .why_container .why_slide p {
+  font-weight: 600;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 30px;
+  margin: 25px 0 0 25px;
+}
+main .why .why_container .why_slide a {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+main .why .why_container .why_slide a img {
+  width: 100%;
+}
+main .why .why_container .why_slide1 {
+  background: url(../images/thumbnail_image_1_20221104060651_67302.jpeg) no-repeat;
+  background-size: cover;
+  grid-area: w1;
+}
+main .why .why_container .why_slide1 p {
+  background: #ffcfd8;
+}
+main .why .why_container .why_slide2 {
+  background: url(../images/thumbnail_image_2_20221104060915_64092.jpeg) no-repeat;
+  background-size: cover;
+  grid-area: w2;
+}
+main .why .why_container .why_slide2 p {
+  background: #b2e9de;
+}
+main .why .why_container .why_slide3 {
+  background: url(../images/thumbnail_image_3_20221104060928_38608.jpeg) no-repeat;
+  background-size: cover;
+  grid-area: w3;
+}
+main .why .why_container .why_slide3 p {
+  background: #ffe552;
+}
+main .why .why_container .why_slide4 {
+  background: url(../images/thumbnail_image_4_20221104060946_71750.jpeg) no-repeat;
+  background-size: cover;
+  grid-area: w4;
+}
+main .why .why_container .why_slide4 p {
+  background: #b2e9de;
+}
+main .why .why_container .why_slide5 {
+  background: url(../images/thumbnail_image_5_20221104060955_15559.jpeg) no-repeat;
+  background-size: cover;
+  grid-area: w5;
+  margin-right: 0;
+}
+main .why .why_container .why_slide5 p {
+  background: #ffcfd8;
 }/*# sourceMappingURL=main.css.map */

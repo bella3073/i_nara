@@ -84,7 +84,6 @@ main {
             img {position:absolute; top:-5px; left:45px;}
         }
         .slide_wrap {
-            background:aqua;
             .slide_container {
                 display:grid;
                 grid-template-areas:
@@ -133,6 +132,79 @@ main {
                     p {}
                     a {img {}}
                 }
+            }
+        }
+    }
+    .why {
+        width:1200px; margin:100px auto;
+        h1 {
+            font-family:$font-jua;
+            font-size:2.7rem;
+            line-height:1.3;
+        }
+        p {padding:20px 0;}
+        .more {
+            display:inline-block;
+            font-family:$font-jua;
+            padding-bottom:100px;
+            position:relative;
+            img {position:absolute; top:-5px; left:45px;}
+        }
+        .why_container {
+            display:grid;
+            grid-template-areas:
+            'w1 w2 w3 w4 w5'; height:300px;
+            .why_slide {
+                border-radius:15px;
+                margin-right:20px; width:220px;
+                position:relative;
+                p {
+                    font-weight:600;
+                    display:inline-block;
+                    padding:12px 20px; 
+                    border-radius:30px;
+                    margin:25px 0 0 25px;
+                }
+                a {
+                    position:absolute; top:40%; left:35%;
+                    img {width:100%;}
+                }
+            }
+            .why_slide1 {
+                background:url(../images/thumbnail_image_1_20221104060651_67302.jpeg) no-repeat;
+                background-size:cover;
+                grid-area:w1; 
+                p {background:#ffcfd8;}
+                a {img {}}
+            }
+            .why_slide2 {
+                background:url(../images/thumbnail_image_2_20221104060915_64092.jpeg) no-repeat;
+                background-size:cover;
+                grid-area:w2;
+                p {background:#b2e9de;}
+                a {img {}}
+            }
+            .why_slide3 {
+                background:url(../images/thumbnail_image_3_20221104060928_38608.jpeg) no-repeat;
+                background-size:cover;
+                grid-area:w3;
+                p {background:#ffe552;}
+                a {img {}}
+            }
+            .why_slide4 {
+                background:url(../images/thumbnail_image_4_20221104060946_71750.jpeg) no-repeat;
+                background-size:cover;
+                grid-area:w4;
+                p {background:#b2e9de;}
+                a {img {}}
+            }
+            .why_slide5 {
+                background:url(../images/thumbnail_image_5_20221104060955_15559.jpeg) no-repeat;
+                background-size:cover;
+                grid-area:w5;
+                margin-right:0;
+                p {background:#ffcfd8;}
+                a {img {}}
             }
         }
     }
